@@ -19,7 +19,8 @@ clean and the poisoned samples the script ``startup.sh`` should be run::
   $ ./startup.sh
 
 This script selects only 10 classes from the whole dataset to demonstrate the
-functionality faster in less data.
+functionality faster in less data. For the data preprocessing
+``prepare_data.py`` is used.
 
 After preparing the features, the models can be trained with the following
 command::
@@ -29,12 +30,14 @@ command::
 About
 -----
 This is the repo for our paper "Going in Style: Audio Backdoors Through
-Stylistic Transformations". To reference our paper use the following bibtex
-entry::
+Stylistic Transformations" which was presented in ICASSP 2023. To reference our
+paper use the following bibtex entry::
 
-  @article{koffas2022going,
+  @inproceedings{koffas2023going,
     title={Going In Style: Audio Backdoors Through Stylistic Transformations},
     author={Koffas, Stefanos and Pajola, Luca and Picek, Stjepan and Conti, Mauro},
-    journal={arXiv preprint arXiv:2211.03117},
-    year={2022}
+    booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+    pages={1--5},
+    year={2023},
+    organization={IEEE}
   }
